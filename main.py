@@ -1,3 +1,5 @@
-print("Bonjour rectifier")
-print("********************")
-print("C'est une suite de texte")
+def afficherLigne(n=20):
+    for i in range(n):
+        print("-"*i)
+
+afficherLigne(20)
